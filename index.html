@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Adivinanzas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>🤔 Juego de Adivinanzas</h1>
+    <p id="riddle">Presiona "Nueva Adivinanza" para empezar.</p>
+    <input type="text" id="answer" placeholder="Escribe tu respuesta">
+    <button onclick="checkAnswer()">Responder</button>
+    <button onclick="newRiddle()">Nueva Adivinanza</button>
+    <p id="feedback"></p>
+    <p>Puntaje: <span id="score">0</span></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
